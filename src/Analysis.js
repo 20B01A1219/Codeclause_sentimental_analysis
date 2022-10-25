@@ -48,12 +48,6 @@ const Analysis = () => {
             <h5> Statement After Analysis : <span>{generalSentiment}</span></h5>
             </div>
         }
-        {
-            (generalSentiment === "positive")?<img src = "/images/happy.gif" alt=''/>:
-            <img src='' alt=''/>
-            
-
-        }
         </div>
     );
 };
